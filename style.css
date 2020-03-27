@@ -81,7 +81,7 @@ body
 	.calculator span.clear
 	{
 		grid-column:span 2;
-		width:12	0px;
+		width:120px;
 		background:#ff3077;
 	}
 	.calculator span.plus
