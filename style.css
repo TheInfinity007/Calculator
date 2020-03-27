@@ -12,6 +12,9 @@ body
 	align-items: center;
 	min-height:100vh;
 	background: #091921;
+	background: url("res/img8.jpeg");
+	background-size:cover;
+	background-repeat:no-repeat;
 }
 .calculator
 {
@@ -24,6 +27,8 @@ body
 	grid-column:span 4;
 	position:relative;
 	text-align:center;
+	font-size:45px;
+	color:#fff;
 }
 .calculator .value
 {
