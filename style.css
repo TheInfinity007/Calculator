@@ -17,7 +17,6 @@ body
 	background-repeat:no-repeat;
 	background-blend-mode: hard-light;
 	flex-direction: column;
-	max-width:100vh;
 }
 body::before
 {
@@ -27,7 +26,6 @@ body::before
 	width: 100%; height: 100%;
 	background-image: url(res/img2.jpg);
 	background-size:cover;
-	background-repeat:no-repeat;
 	filter: grayscale(100%);
 }
 body::after
