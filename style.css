@@ -17,6 +17,7 @@ body
 	background-repeat:no-repeat;
 	background-blend-mode: hard-light;
 	flex-direction: column;
+	max-width:100vh;
 }
 body::before
 {
