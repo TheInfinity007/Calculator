@@ -121,6 +121,7 @@ footer
 	.calculator
 	{
 		background: #0c2835;
+		background:#1a4a66;
 	}
 	.calculator span
 	{
@@ -129,6 +130,7 @@ footer
 		width:60px;
 		color:#fff;
 		background:#0c2835;
+		background:#1a4a66;
 		place-items:center;
 		border: 1px solid rgba(0,0,0,0.1);
 		grid-column-gap: 0;
