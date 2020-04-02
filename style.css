@@ -57,6 +57,10 @@ body::after
 	margin-bottom: 15px;
 	background:#1a4a66;
 	padding:0;
+	border-radius: 15px;
+	overflow: hidden;
+	box-shadow: 0 5px 5px 5px rgba(0,0,0,0.5);
+	box-sizing:border-box;
 }
 .calculator .value
 {
@@ -77,6 +81,7 @@ body::after
 	background:#1a4a66;
 	place-items:center;
 	border: 1px solid rgba(0,0,0,0.1);				/*border can be transparent*/;
+	border-radius: 8px;
 }
 .calculator span:active
 {
