@@ -9,7 +9,7 @@
 <body>
 	<div class="heading"><h1>Calculator</h1></div>
 	<form class="calculator" name="calc">
-		<input type="text"  class="value" name="txt" readonly="">
+		<input type="text"  class="value" name="txt" id="text">	
 		<span class = "num clear" onclick="document.calc.txt.value = '' " >C</span>
 		<span class = "num" onclick="document.calc.txt.value += '/' " >/</span>
 		<span class = "num" onclick="document.calc.txt.value += '*' " >*</span>
@@ -32,8 +32,6 @@
 	<footer>
 		<p>&copy; Calculator 2020 | Made By Ram </p>
 	</footer>
-	<script type="text/javascript">
-
-	</script>
+	<script type="text/javascript" src="script.js"></script>
 </body>
 </html>
