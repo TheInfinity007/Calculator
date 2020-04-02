@@ -12,7 +12,6 @@ body
 	align-items: center;
 	min-height:100vh;
 	background: #091921;
-	background: url("res/img2.jpg");
 	background-size:cover;
 	background-repeat:no-repeat;
 	background-blend-mode: hard-light;
@@ -106,39 +105,19 @@ footer
 }
 @media(max-width:768px)
 {
-	body
-	{
-		background: url("res/img4.jpg");
-	}
-
-	.heading h1
-	{
-		color:#fff;
-		font-size: 40px;
-		letter-spacing: 2px;
-		padding-bottom:5px;
-	}
 	.calculator
 	{
-		background: #0c2835;
-		background:#1a4a66;
+		min-width:240px;
 	}
 	.calculator span
 	{
-		display:grid;
 		height: 60px;
 		width:60px;
-		color:#fff;
-		background:#0c2835;
 		background:#1a4a66;
-		place-items:center;
-		border: 1px solid rgba(0,0,0,0.1);
-		grid-column-gap: 0;
+		grid-gap:0;
 	}
-	.calculator span.clear
+	.calculator span.clear-all
 	{
-		grid-column:span 2;
-		width:120px;
 		background:#ff3077;
 	}
 	.calculator span.plus
