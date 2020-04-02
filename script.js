@@ -1,5 +1,6 @@
 var html = document.querySelector("html");
 html.addEventListener("keydown", function(event){
+	console.log(event.key);
 	var text = document.calc.txt.value;
 	//if the number input is a number
 	if(parseInt(event.key)){		//parseInt(string) is NaN ; return false only the parseInt(int) is true;
@@ -16,7 +17,11 @@ html.addEventListener("keydown", function(event){
 	}else if(event.key == "Backspace"){
 		//if input is a backspace button
 		clearOne();
-	}else if(event.key == "(" || event.key == ")"){
+	}else if(event.key == "."){
+		text += event.key;
+		document.calc.txt.value = text;
+	}
+	else if(event.key == "(" || event.key == ")"){
 		text += event.key;
 		document.calc.txt.value = text;
 	}
