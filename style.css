@@ -84,10 +84,8 @@ body::after
 	background: #74ff3b;
 	color:#111;
 }
-.calculator span.clear
+.calculator span.all-clear
 {
-	grid-column:span 2;
-	width:160px;
 	background:#fa3b7d;
 }
 .calculator span.plus

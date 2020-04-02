@@ -10,7 +10,8 @@
 	<div class="heading"><h1>Calculator</h1></div>
 	<form class="calculator" name="calc">
 		<input type="text"  class="value" name="txt" id="text">	
-		<span class = "num clear" onclick="document.calc.txt.value = '' " >C</span>
+		<span class = "num all-clear" onclick="document.calc.txt.value = '' " >AC</span>
+		<span class = "num clear" onclick="clearOne()" >C</span>
 		<span class = "num" onclick="document.calc.txt.value += '/' " >/</span>
 		<span class = "num" onclick="document.calc.txt.value += '*' " >*</span>
 		<span class = "num" onclick="document.calc.txt.value += '7' " >7</span>
